@@ -1,0 +1,64 @@
+/* Celular */
+@media (max-width:450px) {
+    #box-main{
+        flex-direction: column;
+    }
+    #config-btn{
+        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;    
+    }
+    #painel{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* tablete */
+/* Celular */
+@media (max-width:850px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #txtCod{
+        padding: 40px;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid black;
+    }
+    #box-main{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #config-btn{
+        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;    
+    }
+    #painel{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    #box-footer{
+        width: 100%;
+    }
+
+}
